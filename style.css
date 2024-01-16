@@ -343,7 +343,7 @@
     }
 
     .second-left ul{
-        margin-right: 0;
+        padding-left: 0;
     } 
 
 
@@ -364,5 +364,11 @@
         width: 335px;
         height: 342px;
         flex-shrink: 0;
+    }
+
+    .second-left, .second-right{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
