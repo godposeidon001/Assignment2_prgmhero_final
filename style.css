@@ -339,8 +339,13 @@
     }
 
     .second-left ul li {
-        padding-bottom: 12px; 
+        padding-bottom: 12px;
     }
+
+    .second-left ul{
+        margin-right: 0;
+    } 
+
 
     .second-conclusion {
         margin-top: 16px;
