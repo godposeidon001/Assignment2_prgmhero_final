@@ -240,10 +240,218 @@
 
 .second-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+.second-content {
+    display: flex;
+    gap: 55px;
+}
 
+/* Third Section */
+.third-section {
+    display: flex;
+    justify-content: center;
+}
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-heading {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.third-description {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.third-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-row1 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.row1-left {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle5.png');
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.row1-right {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle8.png');
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.row1-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 573px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-row2 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.row2-left {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle6.png');
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.row2-middle {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle7.png');
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.row2-right {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle9.png');
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.row2-left-text {
+    width: 374px;
+    height: 286px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2-middle-text {
+    width: 474px;
+    height: 286px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2-right-text {
+    width: 274px;
+    height: 286px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-row3 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.row3-left {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle11.png');
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.row3-right {
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle10.png');
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.row3-left-text {
+    width: 473px;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3-right-text {
+    width: 673px;
+    height: 300px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -254,6 +462,13 @@
 
 /* Responsive Section */
 @media screen and (max-width: 576px) {
+
+    .first-section,
+    .second-left,
+    .second-right {
+        margin: 0;
+        padding: 0;
+    }
 
     /* Header Section */
     .nav-right-side ul {
@@ -273,10 +488,6 @@
 
     /* First Section */
 
-     .first-section, .second-left, .second-right{
-        margin:0;
-        padding:0;
-    } 
     .first-section-first {
         width: 335px;
         height: 483px;
@@ -313,10 +524,14 @@
     }
 
     /* Second Section */
-    .second-section{
-        display:flex;
+    .second-section {
+        display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .second-content {
+        flex-direction: column;
     }
 
     .second-heading {
@@ -342,18 +557,17 @@
         padding-bottom: 12px;
     }
 
-    .second-left ul{
+    .second-left ul {
         padding-left: 0;
-    } 
-
+    }
 
     .second-conclusion {
         margin-top: 16px;
         margin-bottom: 24px;
     }
 
-    .second-button{
-        margin-bottom:24px;
+    .second-button {
+        margin-bottom: 24px;
     }
 
     .second-section {
@@ -366,9 +580,47 @@
         flex-shrink: 0;
     }
 
-    .second-left, .second-right{
-        display:flex;
+    .second-left,
+    .second-right {
+        display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    /* Third Section */
+    .third-heading {
+        font-size: 20px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .third-description {
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .third-row1,
+    .third-row2,
+    .third-row3 {
+        flex-direction: column;
+    }
+
+    .row1-left,
+    .row1-right,
+    .row1-text,
+    .row2-left,
+    .row2-left-text,
+    .row2-middle,
+    .row2-middle-text,
+    .row2-right,
+    .row2-right-text,
+    .row3-left,
+    .row3-left-text,
+    .row3-right,
+    .row3-right-text {
+        width: 335px;
+        height: 176px;
     }
 }
