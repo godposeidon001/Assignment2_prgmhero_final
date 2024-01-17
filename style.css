@@ -1041,7 +1041,7 @@
 }
 
 /* Responsive Section */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
 
     .first-section,
     .second-left,
