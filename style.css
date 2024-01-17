@@ -877,6 +877,88 @@
     margin: 0;
 }
 
+/* Own Section */
+.own-section {
+    display: flex;
+    justify-content: center;
+}
+
+.own-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first-card img {
+    width: 64px;
+    height: 64px;
+}
+
+.fcard-heading {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    color: #131318;
+}
+
+.fcard-description {
+    width: 486px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.first-card {
+    width: 510px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 32px;
+    background: #b2c29e;
+}
+
+.aclr {
+    background: #b08f98;
+}
+
+.bclr {
+    background: #b08f98;
+}
+
+.own-first-row,
+.own-second-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.own-heading {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.own-description {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 /* Footer Section */
 .footer {
     display: flex;
@@ -1295,4 +1377,38 @@
         height: 1px;
     }
 
+    /* Own Section */
+    .own-heading {
+        font-size: 20px;
+    }
+
+    .own-description {
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .own-first-row,
+    .own-second-row {
+        flex-direction: column;
+    }
+
+    .first-card {
+        width: 280px;
+        height: 289px;
+    }
+
+    .fcard-description {
+        width: 271px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .bclr {
+        background: #b2c29e;
+    }
+
+    .cclr {
+        background: #b08f98;
+    }
 }
