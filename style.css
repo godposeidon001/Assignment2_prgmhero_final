@@ -519,7 +519,7 @@
 }
 
 .top-row-left {
-    width: 573px;
+    width: 539px;
     height: 284px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -532,7 +532,7 @@
 }
 
 .top-row-right {
-    width: 573px;
+    width: 539px;
     height: 284px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -545,7 +545,7 @@
 }
 
 .bottom-row {
-    width: 573px;
+    width: 539px;
     height: 284px;
     flex-shrink: 0;
     border-radius: 16px;
@@ -753,7 +753,7 @@
     .top-row-left,
     .top-row-right,
     .bottom-row {
-        width: 335px;
+        width: 280px;
         height: 289px;
     }
 
