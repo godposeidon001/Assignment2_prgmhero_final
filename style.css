@@ -877,6 +877,87 @@
     margin: 0;
 }
 
+/* Footer Section */
+.footer {
+    display: flex;
+    justify-content: center;
+
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 110px;
+    margin-bottom: 15px;
+}
+
+.footer-first-row img {
+    width: 40px;
+    height: 46.673px;
+}
+
+.footer-hero {
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-description {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.footer-line {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 50px;
+}
+
+.footer-rights {
+    margin-bottom: 110px;
+}
+
 /* Responsive Section */
 @media screen and (max-width: 576px) {
 
@@ -1184,12 +1265,34 @@
         left: 35%;
     }
 
-    .sixth-image-top{
+    .sixth-image-top {
         font-size: 15.854px;
     }
 
     .sixth-image-bottom {
         font-size: 21.138px;
+    }
+
+    /* Footer Section */
+    .footer-first-row img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .footer-hero,
+    .footer-travel {
+        font-size: 21.543px;
+    }
+
+    .footer-description {
+        width: 287px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .footer-line {
+        width: 335px;
+        height: 1px;
     }
 
 }
